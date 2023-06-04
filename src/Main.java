@@ -139,20 +139,20 @@ public class Main {
         float mashaInMonthNew = mashaInMonth + (mashaInMonth/percent * 10);
         float mashaInYearNew = mashaInMonthNew * 12;
         float mashaDifference = mashaInYearNew - mashaInYear;
-        System.out.println("Маша теперь получает " + (int)mashaInMonthNew + " рублей. Годовой доход вырос на "
-                + (int)mashaDifference + " рублей");
+        System.out.println("Маша теперь получает " + mashaInMonthNew + " рублей. Годовой доход вырос на "
+                + mashaDifference + " рублей");
 
         float denisInMonthNew = denisInMonth + (denisInMonth/percent * 10);
         float denisInYearNew = denisInMonthNew * 12;
         float denisDifference = denisInYearNew - denisInYear;
-        System.out.println("Денис теперь получает " + (int)denisInMonthNew + " рублей. Годовой доход вырос на "
-                + (int)denisDifference + " рублей");
+        System.out.println("Денис теперь получает " + denisInMonthNew + " рублей. Годовой доход вырос на "
+                + denisDifference + " рублей");
 
         float kristinaInMonthNew = kristinaInMonth + (kristinaInMonth/percent * 10);
         float kristinaInYearNew = kristinaInMonthNew * 12;
         float kristinaDifference = kristinaInYearNew - kristinaInYear;
-        System.out.println("Кристина теперь получает " + (int)kristinaInMonthNew + " рублей. Годовой доход вырос на "
-                + (int)kristinaDifference + " рублей");
+        System.out.println("Кристина теперь получает " + kristinaInMonthNew + " рублей. Годовой доход вырос на "
+                + kristinaDifference + " рублей");
     }
 
 }
